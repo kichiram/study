@@ -25,4 +25,13 @@ Amazon Linuxのインスタンスを作成します。
 ## 5. prometheusの設定
 ### 5.1. [起動オプション](https://prometheus.demo.do.prometheus.io/flags)
 ### 5.2. [設定ファイルについて](https://github.com/kichiram/prometheus/tree/main/config/README.md)
-#### 5.2.1. [scrape_configs設定](https://github.com/kichiram/prometheus/tree/main/config/scrape_configs)
+#### 5.2.1. [監視ターゲット設定](https://github.com/kichiram/prometheus/tree/main/config/scrape_configs)
+#### 5.2.2. [アラートルール設定]()
+#### 5.2.3. [レコーディングルール設定]()
+#### 5.2.4. [アラートルール設定]()
+## 6. alertmanagerの設定
+### 6.1. [設定ファイルについて]()
+#### 6.1.1. [アラート通知設定]()
+## 7 .grafana
+#### 7.1. [データソース設定]()
+#### 7.2. [ダッシュボード作成]()
