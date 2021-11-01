@@ -8,30 +8,44 @@ Amazon Linuxのインスタンスを作成します。
 動作確認のためブラウザなどから接続するための設定を行ないます。学習環境なので全開にしますが本来は必要最低限にしてください。
 ## 2. 監視コンポーネントの概要説明
 ### 2.1. [prometheus](https://prometheus.io/)
+下記ページをもとにprometheusの概要説明を行ないます。
 * https://qiita.com/MetricFire/items/8a16632590ac558a9a14
 ### 2.2. [grafana](https://grafana.com/)
+下記ページをもとにgrafanaの概要説明を行ないます。
 * https://qiita.com/Chanmoro/items/a23f0408f0e64658a775
 ## 3. 監視コンポーネントのインストール
+監視で利用するコンポーネントのインストールを実施します。
 ### 3.1. [prometheus](https://github.com/kichiram/prometheus/blob/main/install/README.md)
 ### 3.2. [prometheus exporter](https://github.com/kichiram/prometheus/tree/main/exporter/README.md)
 ### 3.3. [alertmanager](https://github.com/kichiram/alertmanager/blob/main/install/README.md)
 ### 3.4. [grafana](https://github.com/kichiram/grafana/blob/main/install/README.md)
 ## 4. [golang](https://golang.org/)
 ### 4.1.概要説明
+下記ページをもとにgolangの概要説明を行ないます。
 * https://www.yunabe.jp/docs/why_golang_is_good.html
 * https://go-tour-jp.appspot.com/welcome/1
 ### 4.2. [インストール](https://github.com/kichiram/golang/blob/main/install/README.md)
+golangのインストールを実施します。
 ### 4.3. [検証用HTTP Serverのセットアップ](https://github.com/kichiram/golang/blob/main/http_server/README.md)
+golangで作成された検証用のHTTP Serverをセットアップします。
 ## 5. prometheusの設定
 ### 5.1. [起動オプション](https://prometheus.demo.do.prometheus.io/flags)
+prometheusの起動オプションについて重要なものを説明します。
 ### 5.2. [設定ファイルについて](https://github.com/kichiram/prometheus/tree/main/config/README.md)
+prometheusの設定ファイルについて概要説明を行ないます。
 #### 5.2.1. [監視ターゲット設定](https://github.com/kichiram/prometheus/tree/main/config/scrape_configs)
+監視ターゲットを設定してprometheusで確認できるようにします。
 #### 5.2.2. [アラートルール設定]()
+アラートを設定してprometheusで確認できるようにします。
 #### 5.2.3. [レコーディングルール設定]()
-#### 5.2.4. [アラートルール設定]()
+レコーディングルールを設定してprometheusで確認できるようにします。
 ## 6. alertmanagerの設定
 ### 6.1. [設定ファイルについて]()
+alertmanagerの設定ファイルについて概要説明を行ないます。
 #### 6.1.1. [アラート通知設定]()
+アラート通知を設定してメールで確認できるようにします。
 ## 7 .grafana
 #### 7.1. [データソース設定]()
+データソースを設定してprometheusのメトリクスを利用できるようにします。
 #### 7.2. [ダッシュボード作成]()
+ダッシュボードとグラフを作成してprometheusのメトリクスを可視化します。
