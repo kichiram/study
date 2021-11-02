@@ -1,4 +1,4 @@
-# 学習コンテンツ
+# 学習コンテンツ（作成中）
 ## 1. AWS EC2インスタンス作成と設定
 Amazon Linuxのインスタンスを作成して利用する方法を理解します。
 ### 1.1. [EC2インスタンスの作成](https://github.com/kichiram/aws/tree/main/create_ec2_instance/README.md)
