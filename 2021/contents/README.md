@@ -9,6 +9,9 @@ Amazon Linuxのインスタンスを作成します。
 動作確認のためブラウザなどから接続するための設定を行ないます。学習環境なので全開にしますが本来は必要最低限にしてください。
 ## 2. 監視コンポーネントの概要説明
 監視コンポーネントの概要を理解します。
+### 2.0 サーバ監視入門の入門
+その前に。。。
+* https://simple-it-life.com/2016/11/06/monit/
 ### 2.1. [prometheus](https://prometheus.io/)
 下記ページをもとにprometheusの概要説明を行ないます。
 * https://qiita.com/MetricFire/items/8a16632590ac558a9a14
