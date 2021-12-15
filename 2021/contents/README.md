@@ -46,7 +46,7 @@ prometheusの起動オプションについて重要なものを説明します�
 prometheusの設定ファイルについて概要説明を行ないます。
 #### 5.2.1. [監視ターゲット設定](https://github.com/kichiram/prometheus/tree/main/config/scrape_configs)
 監視ターゲットを設定してprometheusで確認できるようにします。
-#### 5.2.2. [grok exporter設定]()
+#### 5.2.2. [grok exporter設定](https://github.com/kichiram/prometheus/tree/main/exporter/grok_exporter/config)
 prometheusのgrok_exporterの設定を変更してログのメトリクスを出力します。
 #### 5.2.3. [アラートルール設定]()
 アラートを設定してprometheusで確認できるようにします。
