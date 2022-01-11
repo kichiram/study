@@ -48,7 +48,7 @@ prometheusの設定ファイルについて概要説明を行ないます。
 監視ターゲットを設定してprometheusで確認できるようにします。
 #### 5.2.2. [grok exporter設定](https://github.com/kichiram/prometheus/tree/main/exporter/grok_exporter/config)
 prometheusのgrok_exporterの設定を変更してログのメトリクスを出力します。
-#### 5.2.3. [アラートルール設定]()
+#### 5.2.3. [アラートルール設定](https://github.com/kichiram/prometheus/tree/main/config/alerting_rules)
 アラートを設定してprometheusで確認できるようにします。
 #### 5.2.4. [レコーディングルール設定]()
 レコーディングルールを設定してprometheusで確認できるようにします。
