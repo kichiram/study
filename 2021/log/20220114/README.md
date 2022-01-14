@@ -9,4 +9,12 @@ https://github.com/kichiram/study/blob/main/2021/contents
 3. 監視コンポーネントのインストール
 ```
 ## 学習ログ
+```
+3.1. prometheus
+3.2. prometheus exporterの「1.1. node_exporterのインストール方法」まで実施
+続きは次回実行する
+```
 ## 質疑応答
+特になし
+## その他
+[外部からssh以外のアクセスを許可する設定](https://github.com/kichiram/aws/blob/main/setup_security/README.md)がうまくいっておらず疎通出来ない方が数名いた
