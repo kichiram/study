@@ -8,6 +8,10 @@ https://github.com/kichiram/study/tree/main/2021
 https://github.com/kichiram/study/blob/main/2021/contents
 1. AWS EC2インスタンス作成と設定
 2. 監視コンポーネントの概要説明
+・監視すべき項目は一般的に死活監視、リソース監視、ログ監視、サービス監視である
+・一般的に監視サーバをmonitoring nodeということでmnodeと呼び、監視対象のWebサーバをservice nodeということでsnodeと呼ぶ
+・監視方法はactiveチェック（mnodeからsnodeをチェックする）、passiveチェック（snodeからmnodeに状況を送信してチェックする）がある
+・prometheusは基本的にsnodeのexporterが生成したメトリクスを収集してチェックする（ただし、一部の死活監視などを実施するexporterはmnode）
 ```
 ## 学習ログ
 アジェンダ通りに進行しました。
