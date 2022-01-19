@@ -50,7 +50,7 @@ prometheusの設定ファイルについて概要説明を行ないます。
 prometheusのgrok_exporterの設定を変更してログのメトリクスを出力します。
 #### 5.2.3. [アラートルール設定](https://github.com/kichiram/prometheus/tree/main/config/alerting_rules)
 アラートを設定してprometheusで確認できるようにします。
-#### 5.2.4. [レコーディングルール設定]()
+#### 5.2.4. [レコーディングルール設定](https://github.com/kichiram/prometheus/tree/main/config/recording_rules)
 レコーディングルールを設定してprometheusで確認できるようにします。
 ## 6. alertmanagerの設定
 alertmanagerの設定方法を理解します。
