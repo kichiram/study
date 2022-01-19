@@ -21,7 +21,7 @@ Amazon Linuxのインスタンスを作成します。
 ## 3. 監視コンポーネントのインストール
 監視コンポーネントのインストール方法を理解します。
 ### 3.0. システム構成図（実際は1台のサーバに詰め込みますが。。。）
-![monitor](https://user-images.githubusercontent.com/91726058/150087986-1e99db99-76b9-4e80-8d12-eec5317d4b33.png)
+![image](https://user-images.githubusercontent.com/91726058/150089057-87845388-9aab-4abf-a9d3-32046069da1d.png)
 ### 3.1. [prometheus](https://github.com/kichiram/prometheus/blob/main/install/README.md)
 prometheusのインストールを実施します。
 ### 3.2. [prometheus exporter](https://github.com/kichiram/prometheus/tree/main/exporter/README.md)
