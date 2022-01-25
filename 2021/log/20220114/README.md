@@ -8,7 +8,7 @@ https://github.com/kichiram/study/blob/main/2021/contents
 3.0. システム構成図
 3.2. prometheus exporterの「2. Blackbox exporter」以降
 3.3. alertmanager
-3.4.  grafana
+3.4. grafana
 3. 監視コンポーネントのインストール
 ```
 ## 学習ログ
