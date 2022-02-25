@@ -27,7 +27,7 @@ prometheusのインストールを実施します。
 ### 3.2. [prometheus exporter](https://github.com/kichiram/prometheus/tree/main/exporter/README.md)
 prometheusの複数のexporterをインストールを実施します。
 ### 3.3. [alertmanager](https://github.com/kichiram/alertmanager/blob/main/install/README.md)
-lertmanagerのインストールを実施します。
+alertmanagerのインストールを実施します。
 ### 3.4. [grafana](https://github.com/kichiram/grafana/blob/main/install/README.md)
 grafanaのインストールを実施します。
 ## 4. [golang](https://golang.org/)
@@ -56,7 +56,7 @@ prometheusのgrok_exporterの設定を変更してログのメトリクスを出
 レコーディングルールを設定してprometheusで確認できるようにします。
 ## 6. alertmanagerの設定
 alertmanagerの設定方法を理解します。
-### 6.1. [設定ファイルについて]()
+### 6.1. [設定ファイルについて](https://github.com/kichiram/alertmanager/blob/main/config/README.md)
 alertmanagerの設定ファイルについて概要説明を行ないます。
 #### 6.1.1. [アラート通知設定]()
 アラート通知を設定してメールで確認できるようにします。
