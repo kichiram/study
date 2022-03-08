@@ -42,6 +42,7 @@ golangのインストールを実施します。
 golangで作成された検証用のHTTP Serverをセットアップします。
 ## 5. prometheusの設定
 prometheusの設定方法を理解します。
+### 5.0. [prometheusのdaemonの設定ファイル修正](https://github.com/kichiram/prometheus/tree/main/change_setting)
 ### 5.1. [起動オプション](https://prometheus.demo.do.prometheus.io/flags)
 prometheusの起動オプションについて重要なものを説明します。
 ### 5.2. [設定ファイルについて](https://github.com/kichiram/prometheus/tree/main/config/README.md)
@@ -58,7 +59,7 @@ prometheusのgrok_exporterの設定を変更してログのメトリクスを出
 alertmanagerの設定方法を理解します。
 ### 6.1. [設定ファイルについて](https://github.com/kichiram/alertmanager/blob/main/config/README.md)
 alertmanagerの設定ファイルについて概要説明を行ないます。
-#### 6.1.1. [アラート通知設定]()
+#### 6.1.1. [アラート通知設定](https://github.com/kichiram/alertmanager/tree/main/config/alertmanager)
 アラート通知を設定してメールで確認できるようにします。
 ## 7 .grafana
 grafanaの設定方法を理解します。
