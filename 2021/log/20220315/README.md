@@ -13,9 +13,9 @@ https://github.com/kichiram/study/blob/main/2021/contents
 ## 学習ログ
 アジェンダ通りに進行しました。
 ### 通常意識する起動オプション
-#### config.file：設定ファイルのパス
-#### storage.tsdb.path：メトリクスの保存先
-#### storage.tsdb.retention.time：メトリクスの保存期間
+* config.file：設定ファイルのパス
+* storage.tsdb.path：メトリクスの保存先
+* storage.tsdb.retention.time：メトリクスの保存期間
 ## 質疑応答
 ### prometheusをreloadできるようにするのはなぜか
 再起動だと一時的にメトリクスの収集が停止し、停止すると一時的にメトリクスが途切れアラートなどを検知出来ない可能性があるため。
