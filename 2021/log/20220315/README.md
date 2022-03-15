@@ -5,6 +5,7 @@
 ■ 学習コンテンツの下記を実施
 https://github.com/kichiram/study/blob/main/2021/contents
 5. prometheusの設定
+5.0. prometheusのdaemonの設定ファイル修正
 5.1. 起動オプション
 5.2. 設定ファイルについて
 5.2.1. 監視ターゲット設定
