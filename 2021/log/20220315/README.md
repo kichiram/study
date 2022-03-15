@@ -12,7 +12,7 @@ https://github.com/kichiram/study/blob/main/2021/contents
 ```
 ## 学習ログ
 アジェンダ通りに進行しました。
-### 通常意識する起動オプション
+### 主な起動オプション
 * config.file：設定ファイルのパス
 * storage.tsdb.path：メトリクスの保存先
 * storage.tsdb.retention.time：メトリクスの保存期間
