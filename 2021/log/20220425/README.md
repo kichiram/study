@@ -13,8 +13,8 @@ https://github.com/kichiram/study/blob/main/2021/contents
 ### grok exporter
 prometheusでログ監視を実現するexporterの1つ。ログフォーマットを正規表現で定義し、マッチしたログからメトリクスを作ってくれます
 ### アラートルールファイル
-labelのservirityで重要度を設定します。この設定はalertmanagerで通知先をコントロールするなどに使えます
-forでアラートまでの待機時間を設定します。再起動直後など一時的な高負荷などはアラートを出したく無い場合に便利です
+#### labelのservirityで重要度を設定します。この設定はalertmanagerで通知先をコントロールするなどに使えます
+#### forでアラートまでの待機時間を設定します。再起動直後など一時的な高負荷などはアラートを出したく無い場合に便利です
 ## 質疑応答
 ### grok_exporterの[パターンファイル](https://github.com/kichiram/prometheus/blob/main/exporter/grok_exporter/config/patterns/test_httpserver)にある「HTTPSERVER_HELLO_NAME」というのは何か？
 「HTTPSERVER_HELLO_LOG」がログ全体のフォーマットを定義したもので、その最後に出力される任意の文字列です
