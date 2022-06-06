@@ -63,7 +63,7 @@ alertmanagerの設定ファイルについて概要説明を行ないます。
 アラート通知を設定してメールで確認できるようにします。
 ## 7 .grafana
 grafanaの設定方法を理解します。
-#### 7.1. [データソース設定]()
+#### 7.1. [データソース設定](https://github.com/kichiram/grafana/blob/main/datasource/README.md)
 データソースを設定してprometheusのメトリクスを利用できるようにします。
 #### 7.2. [ダッシュボード作成]()
 ダッシュボードとグラフを作成してprometheusのメトリクスを可視化します。
