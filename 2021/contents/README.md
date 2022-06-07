@@ -61,7 +61,7 @@ alertmanagerの設定方法を理解します。
 alertmanagerの設定ファイルについて概要説明を行ないます。
 #### 6.1.1. [アラート通知設定](https://github.com/kichiram/alertmanager/tree/main/config/alertmanager)
 アラート通知を設定してメールで確認できるようにします。
-### 6.2. [サイレンス]()
+### 6.2. [サイレンス](https://github.com/kichiram/alertmanager/blob/main/silence/README.md)
 アラート通知を停止する方法を理解します。
 ## 7 .grafana
 grafanaの設定方法を理解します。
