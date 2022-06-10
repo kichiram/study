@@ -69,4 +69,4 @@ grafanaの設定方法を理解します。
 データソースを設定してprometheusのメトリクスを利用できるようにします。
 #### 7.2. [ダッシュボード作成](https://github.com/kichiram/grafana/blob/main/dashboards/README.md)
 ダッシュボードとグラフを作成してprometheusのメトリクスを可視化します。
-## 8 .まとめ
+## 8 .まとめと補足
