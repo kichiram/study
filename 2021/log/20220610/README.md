@@ -7,8 +7,8 @@ https://github.com/kichiram/study/blob/main/2021/contents
 6. alertmanagerの設定
 ```
 ## 学習ログ
-
+アジェンダ通りに進行しました。
 ## 質疑応答
-
+特になし
 ## その他
-
+次回はgrafanaの設定を実施予定です。
