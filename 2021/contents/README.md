@@ -63,9 +63,10 @@ alertmanagerの設定ファイルについて概要説明を行ないます。
 アラート通知を設定してメールで確認できるようにします。
 ### 6.2. [サイレンス](https://github.com/kichiram/alertmanager/blob/main/silence/README.md)
 アラート通知を停止する方法を理解します。
-## 7 .grafana
+## 7 .grafanaの設定
 grafanaの設定方法を理解します。
 #### 7.1. [データソース設定](https://github.com/kichiram/grafana/blob/main/datasource/README.md)
 データソースを設定してprometheusのメトリクスを利用できるようにします。
 #### 7.2. [ダッシュボード作成](https://github.com/kichiram/grafana/blob/main/dashboards/README.md)
 ダッシュボードとグラフを作成してprometheusのメトリクスを可視化します。
+## 8 .まとめ
