@@ -7,8 +7,9 @@ https://github.com/kichiram/study/blob/main/2021/contents
 7. grafanaの設定
 ```
 ## 学習ログ
-
+アジェンダ通りに進行しました。
 ## 質疑応答
-
+#### Grafanaにもアラート機能があるようですがPrometheusと連携しているものですか？
+Grafana独自のアラートルールでパネル単位に設定できます。今回紹介していないのはアラート機能（特にサイレンスの部分）がpromethuesの方が優れているからです。なお、今回利用したバージョンのGrafanaではprometheusのAlerting Ruleと状況が確認できるようです。
 ## その他
-
+次回は最終回、まとめと補足を実施予定です。
