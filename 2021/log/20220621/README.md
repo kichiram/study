@@ -11,5 +11,7 @@ https://github.com/kichiram/study/blob/main/2021/contents
 ## 質疑応答
 #### Grafanaにもアラート機能があるようですがPrometheusと連携しているものですか？
 Grafana独自のアラートルールでパネル単位に設定できます。今回紹介していないのはアラート機能（特にサイレンスの部分）がpromethuesの方が優れているからです。なお、今回利用したバージョンのGrafanaではprometheusのAlerting Ruleと状況が確認できるようです。
+#### Grafanaのダッシュボードを第三者に共有可能ですか？
+参照専用のアカウントが作成できますので、そのユーザ/パスワードとURLを共有すれば可能です。
 ## その他
 次回は最終回、まとめと補足を実施予定です。
