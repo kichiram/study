@@ -70,3 +70,8 @@ grafanaの設定方法を理解します。
 #### 7.2. [ダッシュボード作成](https://github.com/kichiram/grafana/blob/main/dashboards/README.md)
 ダッシュボードとグラフを作成してprometheusのメトリクスを可視化します。
 ## 8 .まとめと補足
+#### 8.1. まとめ
+[今回の勉強会で利用した環境、技術](https://github.com/kichiram/study/tree/main/2021#%E5%88%A9%E7%94%A8%E7%92%B0%E5%A2%83%E6%8A%80%E8%A1%93)
+* [prometheus](https://github.com/kichiram/prometheus)は私が利用した中で重要だと思われTる設定やexporterについて説明しましたが、他にも有用なものがありますので補足で追加説明します。
+* [alertmanager](https://github.com/kichiram/alertmanager)はメール通知のみでしたが、slackに通知する場合は[こちら](https://zenn.dev/empenguin/articles/721ba3164a2196)のページが参考になります。
+* [golang](https://github.com/kichiram/golang)は軽く触れただけですが、興味があれば[A Tour of Go](https://go-tour-jp.appspot.com/welcome/1)などで学習頂ければと思います。
