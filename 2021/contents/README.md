@@ -72,19 +72,20 @@ grafanaの設定方法を理解します。
 ## 8 .まとめと補足
 #### 8.1. まとめ
 [今回の勉強会で利用した環境、技術](https://github.com/kichiram/study/tree/main/2021#%E5%88%A9%E7%94%A8%E7%92%B0%E5%A2%83%E6%8A%80%E8%A1%93)
-- [prometheus](https://github.com/kichiram/prometheus)は私が利用した中で重要だと思われTる設定やexporterについて説明しましたが、他にも有用なものがありますので補足で追加説明します。
+- [prometheus](https://github.com/kichiram/prometheus)は私が利用した中で重要だと思われる設定やexporterについて説明しましたが、他にも有用なものがありますので補足で追加説明します。
 - [alertmanager](https://github.com/kichiram/alertmanager)はメール通知のみでしたが、slackに通知する場合は[こちら](https://zenn.dev/empenguin/articles/721ba3164a2196)のページが参考になります。
 - [golang](https://github.com/kichiram/golang)は軽く触れただけですが、興味があれば[A Tour of Go](https://go-tour-jp.appspot.com/welcome/1)などで学習頂ければと思います。
 #### 8.2. 補足
 - バッチの監視
-  - prometheusはsnode（監視サーバ）から監視に必要な情報（メトリクス）を収集するため拡張性などに優れていますが、実はバッチ処理の監視には向いていません。バッチ処理の監視は下記のいずれかで実施すると良いです。
+  - prometheusはsnode（監視サーバ）から監視に必要な情報（メトリクス）を収集するため拡張性などに優れていますが、mnode(監視対象サーバ)側で常にメトリクスを公開している必要があるためバッチ処理の監視には向いていません。バッチ処理の監視は下記のいずれかで実施すると良いです。
     - [pushgateway](https://qiita.com/MetricFire/items/c4753396259923a0c9e2)というメトリクス送信型のものを利用する
     - node_exporterの[Textfile Collector](https://qiita.com/sugitak/items/25007e6bbb18ead107af)というのを利用してnode_exporterにメトリクスを送る
-    - ログを適切に出力して[grok_exporter]で状況がわかるようメトリクスを出力する
+    - ログを適切に出力して[grok_exporter](https://github.com/kichiram/prometheus/tree/main/exporter/grok_exporter)で状況がわかるようメトリクスを出力する
 - [prometheusの関数](https://prometheus.io/docs/prometheus/latest/querying/functions/)
   - 監視で便利な関数
     - [changes](https://prometheus.io/docs/prometheus/latest/querying/functions/#changes)：メトリクスの値が変更されたかを確認したい場合
-    - [delta](https://prometheus.io/docs/prometheus/latest/querying/functions/#delta)：期間の最初から最後までで増加した値を知りたい場合
+    - [delta](https://prometheus.io/docs/prometheus/latest/querying/functions/#delta)：期間の最初から最後までで増加した値を知りたい場合。ただし、カウンタのリセットには対応していない
+    - [increase](https://prometheus.io/docs/prometheus/latest/querying/functions/#increase)：上記同様でカウンタのリセットにも対応しているが、値が減るようなメトリクスだと誤作動する。
     - [label_replace](https://prometheus.io/docs/prometheus/latest/querying/functions/#label_replace)：ラベルの値を正規表現で置換したい場合
 - [prometheusの演算子](https://prometheus.io/docs/prometheus/latest/querying/operators/)
   - sum by：指定したラベル単位に値を集計したい場合
@@ -92,4 +93,4 @@ grafanaの設定方法を理解します。
 - メトリクスの長期保存
   - 監視サーバには様々なメトリクスが必要なため容量の観点などからメトリクスの長期保存には不向きです。メトリクスの長期保存は下記のいずれかで実施すると良いです。
     - 別途メトリクス長期保存用のprometheusを用意し、メトリクスを厳選して保存する
-    - remote storage[https://qiita.com/kkohtaka/items/48acd647155ee0602804]を用意して、メトリクスを厳選して保存する
+    - remote storage[https://prometheus.io/docs/prometheus/latest/storage/#remote-storage-integrations]を用意して、メトリクスを厳選して保存する
