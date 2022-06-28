@@ -93,4 +93,4 @@ grafanaの設定方法を理解します。
 - メトリクスの長期保存
   - 監視サーバには様々なメトリクスが必要なため容量の観点などからメトリクスの長期保存には不向きです。メトリクスの長期保存は下記のいずれかで実施すると良いです。
     - 別途メトリクス長期保存用のprometheusを用意し、メトリクスを厳選して保存する
-    - remote storage[https://prometheus.io/docs/prometheus/latest/storage/#remote-storage-integrations]を用意して、メトリクスを厳選して保存する
+    - [remote storage](https://prometheus.io/docs/prometheus/latest/storage/#remote-storage-integrations)を用意して、メトリクスを厳選して保存する。利用できる[storage](https://prometheus.io/docs/operating/integrations/#remote-endpoints-and-storage)
