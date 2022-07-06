@@ -24,5 +24,5 @@
   - [Webの仕組みとWebサーバの構造](https://atmarkit.itmedia.co.jp/ait/articles/0101/16/news003.html)
 
 ## おまけ
-golangならwebサーバ不要です。
-参考：https://qiita.com/rihofujino/items/39f1778d3458248e134d
+- golangならwebサーバ不要です。
+  - 参考：https://qiita.com/rihofujino/items/39f1778d3458248e134d
