@@ -23,6 +23,10 @@
 - IPアドレス、PORT、DHCP、DNS、MIME typeなどを交えて下記webサイトを利用して説明します。
   - [Webの仕組みとWebサーバの構造](https://atmarkit.itmedia.co.jp/ait/articles/0101/16/news003.html)
 
+## TLS（SSL）とは
+- セキュアなインターネット通信（https：//～）を行なう仕組みでデータを暗号化して送受信します。
+  - 参考：https://www.infraexpert.com/study/security7.html
+
 ## おまけ
 - golangならwebサーバ不要です。
   - 参考：https://qiita.com/rihofujino/items/39f1778d3458248e134d
