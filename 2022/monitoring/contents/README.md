@@ -51,13 +51,14 @@
 
 ## 5. 監視ツール
 OSS（オープンソースソフトウェア）限定だと下記がメジャーなものだと思います。
-* [Nagios](https://www.nagios.org/)
-* [Zabbix](https://www.zabbix.com/jp)
-* [Prometheus](https://prometheus.io/)
+- [Nagios](https://www.nagios.org/)
+- [Zabbix](https://www.zabbix.com/jp)
+- [Prometheus](https://prometheus.io/)
 
 また、aws や Microsoft Cloudなどのクラウドは専用の監視ツールが用意されています。
 
 ## 参考にしたサイト
-* https://simple-it-life.com/2016/11/06/monit/
-* https://hnavi.co.jp/knowledge/blog/system-surveillance/
-* https://qeee.jp/magazine/articles/7830
+- https://simple-it-life.com/2016/11/06/monit/
+- https://hnavi.co.jp/knowledge/blog/system-surveillance/
+- https://qeee.jp/magazine/articles/7830
+- https://beyondjapan.com/blog/2016/09/oss-kanshi/
