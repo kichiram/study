@@ -47,6 +47,7 @@
 - active check  : 主に死活監視でこの手法を利用します。
 - passive check : 主にリソース監視、ログ監視、サービス監視でこの手法を利用します。
 
+![image](https://user-images.githubusercontent.com/91726058/207789117-d9860bf1-14c7-4746-bbd8-ae43c0a9e37c.png)
 
 
 5. 監視ツール
