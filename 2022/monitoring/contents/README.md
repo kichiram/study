@@ -49,9 +49,15 @@
 
 ![image](https://user-images.githubusercontent.com/91726058/207789117-d9860bf1-14c7-4746-bbd8-ae43c0a9e37c.png)
 
+## 5. 監視ツール
+OSS限定だと下記がメジャーなものだと思います。
+* [Nagios](https://www.nagios.org/)
+* [Zabbix](https://www.zabbix.com/jp)
+* [Prometheus](https://prometheus.io/)
 
-5. 監視ツール
+また、aws や Microsoft Cloudなどのクラウドは専用の監視ツールが用意されています。
 
 ## 参考にしたサイト
 * https://simple-it-life.com/2016/11/06/monit/
 * https://hnavi.co.jp/knowledge/blog/system-surveillance/
+* https://qeee.jp/magazine/articles/7830
